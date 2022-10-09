@@ -1,7 +1,5 @@
 import QRCode from "qrcode";
 import { useState } from "react";
-import QRCodeBanner from "../src/QRCodeBanner.jpg"
-import QRCodeBannerCopy from "../src/QRCodeBannerCopy.jpg"
 
 function App() {
 
