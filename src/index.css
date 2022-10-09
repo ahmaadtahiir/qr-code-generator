@@ -14,12 +14,10 @@
   align-items: center;
   background: url("./assets/cover.jpg");
   background-size: cover;
-  opacity: 1;
 }
 
 .app-wrapper {
   background-color: #ffffff;
-  opacity: 1;
   min-width: 450px;
   min-height: 650px;
   padding: 0px;
