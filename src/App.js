@@ -7,7 +7,7 @@ function App() {
   const [qrcode, setQrcode] = useState('');
 
   const GenerateQRCode = () => {
-    QRCode.toDataURL(url,{
+    QRCode.toDataURL(url, {
       width: 500,
       padding: 4,
       color: {
@@ -31,7 +31,7 @@ function App() {
             onChange={(evt) => setUrl(evt.target.value)}>
           </input>
         </div>
-          <button onClick={GenerateQRCode}>Generate</button>
+        <button onClick={GenerateQRCode}>Generate</button>
         {qrcode && <>
           <img src={qrcode} />
           <a href={qrcode} download="qrcode.png"><button>Download</button></a>
